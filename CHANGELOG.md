@@ -16,7 +16,9 @@ All notable changes to this project are documented here. This project adheres to
 - Packaged as a Claude Code plugin + single-plugin marketplace.
 
 ### Notes
-- Marketplace `name` (`se4thvin-plugins`) is intentionally different from the plugin
-  `name` (`task-reports`) to avoid a Claude Code install-classification bug.
+- Marketplace `name` (`se4thvin-task-reports`) is intentionally different from the plugin
+  `name` (`task-reports`) AND unique across the author's other marketplace repos. Reusing
+  another repo's marketplace name (e.g. `se4thvin-plugins` from context-handoff) overwrites
+  that marketplace's registration in `known_marketplaces.json` and the plugin won't resolve.
 - `marketplace.json` `source` uses the `{ source: "url", url, sha }` form pinned to a
   release commit SHA; bump the SHA on every release.
