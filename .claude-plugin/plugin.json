@@ -1,0 +1,10 @@
+{
+  "name": "task-reports",
+  "version": "0.1.0",
+  "description": "Generate filled Bug Report and WI (Work Item) completion writeups for Notion, auto-filled from the work done with commits and PRs",
+  "license": "MIT",
+  "author": {
+    "name": "se4thvin",
+    "url": "https://github.com/se4thvin"
+  }
+}
